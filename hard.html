@@ -1,0 +1,47 @@
+<!--HARD: Recreate the pie chart in the picture provided.-->
+<table>
+    <tr>
+        <td id="red-cell">Red</td>
+        <td id="yellow-cell">Yellow</td>
+    </tr>
+    <tr>
+        <td id="blue-cell">Blue</td>
+        <td id="green-cell">Green</td>
+    </tr>
+</table>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    table {
+        height: 300px;
+        width: 300px;
+    }
+
+    #red-cell {
+        background-color: red;
+        border-radius: 100% 0 0 0;
+    }
+
+    #yellow-cell {
+        background-color: yellow;
+        border-radius: 0 100% 0 0;
+    }
+
+    #blue-cell {
+        background-color: blue;
+        border-radius: 0 0 0 100%;
+    }
+
+    #green-cell {
+        background-color: green;
+        border-radius: 0 0 100% 0;
+    }
+
+    td {
+        width: 50%;
+        height: 50%;
+        text-align: center;
+    }
+</style>

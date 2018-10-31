@@ -1,0 +1,126 @@
+<!--VERY EASY: Create one 8x8 checkerboard similar to the picture attached using a table. Bonus: use only divs to create the board.-->
+
+<body>
+    <div id="board">
+        <div class="row">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+        <div class="row">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="row">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+        <div class="row">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="row">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+        <div class="row">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="row">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+        <div class="row">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+        <div class="row">
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+    </div>
+</body>
+<style>
+    #board {
+        border: 5px solid blue;
+        width: 800px;
+    }
+
+    div.row div {
+        width: 100px;
+        height: 100px;
+    }
+
+    div.row div.black {
+        background-color: black;
+    }
+
+    div.row div.white {
+        background-color: white;
+    }
+
+    div.row div {
+        float: left;
+    }
+
+    div.row:after {
+        content: " ";
+        visibility: none;
+        display: block;
+        clear: both;
+    }
+</style>
